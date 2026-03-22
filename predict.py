@@ -8,7 +8,7 @@ from utils.visualize import decode_segmap
 device = torch.device('cpu')
 
 model = UNet(num_classes=21)
-checkpoint = torch.load('checkpoints/model_epoch_148.pth', map_location=device)
+checkpoint = torch.load('checkpoints/model_epoch_198.pth', map_location=device)
 model.load_state_dict(checkpoint['model_state_dict'])
 model.to(device)
 model.eval()
