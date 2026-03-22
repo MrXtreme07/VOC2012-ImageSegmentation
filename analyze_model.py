@@ -8,7 +8,7 @@ from models.unet import UNet
 # -------- LOAD MODEL --------
 
 model = UNet(num_classes=21)
-checkpoint = torch.load('checkpoints/model_epoch_150.pth', map_location='cpu')
+checkpoint = torch.load('checkpoints/model_epoch_198.pth', map_location='cpu')
 model.load_state_dict(checkpoint['model_state_dict'])
 model.eval()
 
@@ -54,7 +54,7 @@ epochs = np.arange(1, len(losses)+1)
 
 plt.figure()
 
-plt.plot(epochs[24:150], losses[24:150])
+plt.plot(epochs[24:200], losses[24:200])
 plt.xlabel("Epoch")
 plt.ylabel("Loss")
 plt.title("Training Loss Curve")
