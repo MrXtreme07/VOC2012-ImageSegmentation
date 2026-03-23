@@ -68,14 +68,16 @@ The model follows the U-Net encoder–decoder design:
 
 ### Example 1
 
-<img width="1724" height="883" alt="image" src="https://github.com/user-attachments/assets/34804d70-92a9-4324-9566-dab3bab9b2dd" />
+<img width="1873" height="874" alt="image" src="https://github.com/user-attachments/assets/46419e78-0997-45d1-8ab5-8c3a6a2b4fad" />
+
 
 
 ---
 
 ### Example 2
 
-<img width="1654" height="865" alt="image" src="https://github.com/user-attachments/assets/76842e2a-53ea-4e35-9aa2-a11f6942722c" />
+<img width="1878" height="919" alt="image" src="https://github.com/user-attachments/assets/71ad2e01-076b-46dd-a585-ba0a2b8dbdc2" />
+
 
 
 ---
